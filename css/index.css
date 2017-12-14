@@ -1,0 +1,356 @@
+/*
+* @Author: lenovo
+* @Date:   2017-12-12 14:28:28
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-12-14 21:20:28
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 506485 */
+  src: url('http://at.alicdn.com/t/font_506485_h2ly1ld0che8w7b9.eot');
+  src: url('http://at.alicdn.com/t/font_506485_h2ly1ld0che8w7b9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_506485_h2ly1ld0che8w7b9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_506485_h2ly1ld0che8w7b9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_506485_h2ly1ld0che8w7b9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-size: 36px;
+}
+.about{
+	padding: 120px 0;
+	background: #fff;
+}
+.about_head h1{
+	font-size: 36px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.about_head p{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 35px;
+	font-size: 14px;
+	line-height: 22px;
+}
+.textimg img{
+	width: 100%;
+	height: 100%;
+}
+.text h2{
+	font-size: 36px;
+	margin-bottom: 30px;
+
+}
+/* 手机端 */
+@media screen and (max-width: 768px){
+    .text h2{
+    	margin-top: 30px;
+    }
+}
+/* 平板端 */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .text h2{
+    	margin-top: 30px;
+    }
+}
+/* pc小屏 */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.text h2{
+    	
+    }
+    /* .our .container .row div{
+    	width: 293px;
+    	height: 250px;
+    } */
+}
+/* pc大屏 */
+@media screen and (min-width: 1200px){
+
+}
+.our{
+	padding: 120px 0;
+	background: #f5f5f5;
+}
+.our-head h1{
+	font-size: 36px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.our-head p{
+	font-size: 12px;
+	margin: 0 auto;
+	text-align: center;
+}
+.our .container .row li h3{
+	font-size: 30px;
+	text-align: center;
+}
+.our .container .row li p{
+	font-size: 14px;
+	line-height: 22px;
+	color: #55575d;
+	text-align: center;
+}
+.our .container .row div:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 3px 10px .3px rgba(0, 0, 0, 0.3);
+    transition: all 1s  ease;
+}
+.our .container .row li{
+	margin-top: 40px;
+}
+.our .container .row div{
+	background: #fff;
+	padding: 30px;
+
+}
+.zuopin{
+	padding: 120px 0;
+	background: #fff;
+}
+.zuopin .container .zuopin1 h1{
+	font-size: 36px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.zuopin .container .zuopin1 p{
+	font-size: 12px;
+	margin: 0 auto;
+	text-align: center;
+}
+.zuopin .container .row ul li{
+	margin-top: 40px;
+}
+.zuopin .container .row ul li a img:hover{
+	transform: scale( 0.9);
+	transition: all 1s .1s ease;
+}
+.zuopin .container .row ul li a img{
+	margin: 0 auto;
+}
+.zuopin .container .row ul li a{
+	display: block;
+	position: relative;
+}
+.hezi{
+	width: 292px;
+	height: 200px;
+	background: rgba(0, 0, 0, 0.0);
+	position: absolute;
+	left: 0;
+	bottom: 4px;
+}
+.hezi:hover{
+	transform: scale( 1);
+	transition: all .5s ease;
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
+/* .hezi:hover .shiliang:hover{
+	opacity: 1;
+} */
+.hezi:hover .shiliang i{
+	border-radius: 50%;
+	background: #fff;
+	opacity: 1;
+}
+.shiliang:hover{
+	background: rgba(0, 0, 0, 1);
+	color: #fff;
+}
+.shiliang{
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	margin-left: 125px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0)
+}
+.shiliang i{
+	font-size: 25px;
+	display: block;
+	margin-top: 85px;
+	text-align: center;
+	opacity: 0;
+	color: #000;
+}
+.zuopin .container .row ui li div{
+	padding: 30px;
+	background: #fff;
+}
+.zuihou h1{
+	font-size: 36px;
+	text-align: center;
+}
+.zuihou p{
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 506398 */
+  src: url('http://at.alicdn.com/t/font_506398_lfye72q4n1cyp66r.eot');
+  src: url('http://at.alicdn.com/t/font_506398_lfye72q4n1cyp66r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_506398_lfye72q4n1cyp66r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_506398_lfye72q4n1cyp66r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_506398_lfye72q4n1cyp66r.svg#iconfont') format('svg');
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 506485 */
+  src: url('http://at.alicdn.com/t/font_506485_6kxrh5anx3l3di.eot');
+  src: url('http://at.alicdn.com/t/font_506485_6kxrh5anx3l3di.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_506485_6kxrh5anx3l3di.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_506485_6kxrh5anx3l3di.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_506485_6kxrh5anx3l3di.svg#iconfont') format('svg');
+}
+
+
+
+
+
+
+
+.zuihou{
+	padding: 120px 0;
+	background: #f3f3f4;
+}
+.zuihou .container .row li{
+	box-sizing: border-box;
+	padding: 0 12px;
+}
+
+input[class]{
+	height: 44px;
+    min-width: 100%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    outline: none;
+    margin-bottom: 24px;
+}
+textarea{
+	min-width: 100%;
+	border-radius: 4px;
+	box-sizing: border-box;
+    padding: 10px 15px;
+    color: #757575;
+    margin-bottom: 24px;
+}
+.zuihou1{
+	height: 500px;
+}
+.zuihou2{
+	height: 300px;
+}
+input:last-of-type{
+	background: #333;
+	color: #fff;
+	width: 100px;
+	border-radius: 4px;
+	height: 44px;
+	outline: none;
+}
+.zuihou3{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 35px;
+}
+.zuihou h1{
+	margin-bottom: 20px;
+}
+.zuihou4{
+	width: 60px;
+	height: 60px;
+	background: #f6f6f6;
+	font-size: 24px;
+	text-align: center;
+	color: #55575d;
+	line-height: 60px;
+	margin-right: 10px;
+	float: left;
+}
+.zuihou5{
+	font-size: 16px;
+	color: #959595;
+	float: left;
+	line-height: 30px;
+/* 	margin-top: -20px; */
+}
+.made{
+	width: 100%;
+	height: 120px;
+	background: #0D1218;
+	float: left;
+	position: relative;
+}
+.made .container div p{
+	width: 555px;
+	height: 36px;
+	color: #fff;
+	float: left;
+}
+.made1 div{
+	width: 476px;
+	height: 36px;
+	background: #0D1218;
+	float: right;
+	margin-top: -40px;
+}
+.made div a{
+	display: block;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background: #86898C;
+	color: #666;
+	float: right;
+	text-align: center;
+	margin-left: 5px;
+	line-height: 36px;
+}
+.made div a .iconfont{
+	font-size: 25px;
+	line-height: 36px;
+	text-align: center;
+}
+.container{
+	margin-top: 50px;
+}
+.shang1{
+	width: 36px;
+	height: 36px;
+	background: red;
+}
+.made .container section {
+	position: absolute;
+	top: -18px;
+	left: 1%;
+}
+.made .container section a{
+	border-radius: 0;
+	display: block;
+	transform: rotate(46deg);
+	background: #0D1218;
+}
+.made .container section .icon2{
+	position: absolute;
+	left: 622px;
+	top: 4px;
+	font-size: 30px;
+	color: #fff;
+}
+.made .container section a i:hover{
+	color: #000;
+}
+.made .container section a i{
+	color: #fff;
+}
+.made .container section a:hover{
+	background: #00BFFF;
+}

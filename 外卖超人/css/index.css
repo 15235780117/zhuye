@@ -1,0 +1,353 @@
+/*
+* @Author: lenovo
+* @Date:   2017-12-06 17:14:03
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-12-14 22:02:24
+*/
+@import url('base.css');
+.quanbu{
+	width: 100%;
+	height: 1.3rem;
+	background: #00a4ff;
+	float: left;
+}
+.quanbu1{
+	width: 3.47rem;
+	height: 0.25rem;
+	background: #00a4ff;
+	margin-top: 0.17rem;
+	margin-left: 0.14rem;
+}
+.quanbu2{
+	width: 1.96rem;
+	height: 100%;
+	background: #009fff;
+	float: left;
+}
+.quanbu3{
+	width: 0.76rem;
+	height: 0.25rem;
+	background:#00a4ff;
+	float: right;
+}
+.quanbu4{
+	width: 0.18rem;
+	height: 0.16rem;
+	background: #00a4ff;
+	float: left;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 500024 */
+  src: url('http://at.alicdn.com/t/font_500024_eo5m7nusfbf0f6r.eot');
+  src: url('http://at.alicdn.com/t/font_500024_eo5m7nusfbf0f6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_500024_eo5m7nusfbf0f6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_500024_eo5m7nusfbf0f6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_500024_eo5m7nusfbf0f6r.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family:iconfont;
+	line-height: 0.16rem;
+	font-size: 0.2rem;
+	margin-top: 0.03rem;
+	color: #fff;
+}
+.quanbu5{
+	width: 1.77rem;
+	height: 0.18rem;
+	background: #009fff;
+	float: right;
+	color: #fff;
+
+}
+.quanbu6{
+	width: 0.3rem;
+	height: 0.25rem;
+	background: #00a4ff;
+	font-size: 0.08rem;
+	text-align: center;
+	line-height: 0.25rem;
+	float: left;
+	color: #fff;
+	margin-bottom: 0.02rems;
+}
+.quanbu7{
+	width: 0.28rem;
+	height: 0.24rem;
+	float:right;
+}
+.shuru{
+	width: 3.47rem;
+	height: 0.35rem;
+	background: #fff;
+	margin-left: 0.14rem;
+	margin-top: 0.1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shuru1{
+	width: 1.37rem;
+	height: 0.13rem;
+	background: #fff;
+	color: #333;
+	font-size: 0.12rem;
+	text-align: center;
+}
+.shuru2{
+	width: 0.11rem;
+	height: 0.13rem;
+	background: #fff;
+	float: left;
+}
+.daohang{
+	width: 3.47rem;
+	height: 0.12rem;
+	background: #00a4ff;
+	margin-top: 0.17rem;
+	margin-left: 0.14rem;
+}
+.daohang1{
+	width: 0.39rem;
+	height: 0.11rem;
+	background: #00a4ff;
+	font-size: 0.11rem;
+	float: left;
+	color: #fff;
+}
+.daohang2{
+	width: 0.64rem;
+	background: 
+}
+.meishi{
+	width: 3.75rem;
+	height: 1.82rem;
+	background: #fff;
+	float: left;
+	position: relative;
+}
+.meishi1{
+	width: 100%;
+	height: 0.66rem;
+	background: #fff;
+	margin-top: 0.15rem;
+	display: flex;
+	justify-content: space-around;
+}
+.meishi2{
+	width: 0.63rem;
+	height: 0.60rem;
+	background: #fff;
+}
+.meishi3{
+	width: 0.63rem;
+	height: 0.4rem;
+	background: #fff;
+}
+.meishi4{
+	width: 0.5rem;
+	height: 0.11rem;
+	background: #fff;
+	margin-top: 0.05rem;
+	margin-left: 0.07rem;
+	font-size: 0.05rem;
+	text-align: center;
+}
+.dian{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #ccc;
+	position: absolute;
+	left: 1.78rem;
+	bottom: 0.09rem;
+}
+.dian1{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #000;
+	position: absolute;
+	bottom: 0.09rem;
+}
+.chatu{
+	width: 3.55rem;
+	height: 0.8rem;
+	background: red;
+	display: block;
+	float: left;
+	margin-left: 0.1rem;
+}
+.heng{
+	width: 100%;
+	height: 0.08rem;
+	background: #f5f5f5;
+	float: left;
+	margin-top: 0.16rem;
+}
+.tuijian{
+	width: 100%;
+	height: 0.37rem;
+	background: #fff;
+	float: left;
+}
+.tuijian1{
+	width: 0.21rem;
+	height: 0.02rem;
+	background: #ccc;
+	margin-top: 0.16rem;
+	margin-left: 1.24rem;
+}
+.tuijian2{
+	margin-left: 1.54rem;
+	margin-top: -0.11rem;
+}
+.tuijian3{
+	width: 0.21rem;
+	height: 0.02rem;
+	background: #ccc;
+	margin-top: -0.12rem;
+	margin-left: 2.29rem;
+	float: left;
+}
+.zaocan{
+	width: 100%;
+	height: 1.6rem;
+	background: #fff;
+	float: left;
+}
+.zaocan1{
+	width: 3.54rem;
+	height: 0.64rem;
+	background: #fff;
+	margin-top: 0.14rem;
+	margin-left: 0.1rem;
+
+}
+.zaocan2{
+	width: 2.81rem;
+	height: 0.43rem;
+	background: #fff;
+	margin-top: 0.2rem;
+	margin-left: 0.75rem;
+	float: left;
+}
+.zaocan9{
+	width: 0.14rem;
+	height: 0.15rem;
+	background: yellowgreen;
+	float: left;
+}
+.zaocan10{
+	width: 0.14rem;
+	height: 0.15rem;
+	background: yellowgreen;
+	margin-top: 0.2rem;
+}
+.zaocan11{
+	width: 0.94rem;
+	height: 0.11rem;
+	background: #fff;
+	float: left;
+	font-size: 0.01rem;
+	margin-left: 0.05rem;
+	color: #ccc;
+}
+.zaocan12{
+	width: 0.94rem;
+	height: 0.11rem;
+	background: #fff;
+	float: left;
+	font-size: 0.01rem;
+	margin-left: 0.18rem;
+	margin-top: -0.1rem;
+	color: #ccc;
+}
+.zaocan3{
+	width: 0.65rem;
+	height: 0.65rem;
+	background: #fff;
+	float: left;
+}
+.zaocan4{
+	width: 1.59rem;
+	height: 0.65rem;
+	background: #fff;
+	float: left;
+	margin-left: 0.1rem;
+}
+.zaocan5{
+	width: 1.59rem;
+	height: 0.16rem;
+	font-size: 0.15rem;
+	color: #000;
+}
+.zaocan6{
+	width: 1.24rem;
+	height: 0.1rem;
+	font-size: 0.05rem;
+	margin-top: 0.12rem;
+	color: #666;
+}
+.zaocan7{
+	width: 0.95rem;
+	height: 0.11rem;
+	font-size: 0.05rem;
+	margin-top: 0.12rem;
+	color: #666;
+}
+.zaocan8{
+	width: 0.79rem;
+	height: 0.1rem;
+	float: right;
+	margin-top: 0.50rem;
+	font-size: 0.08rem;
+	color: #666;
+}
+.wei{
+	width: 100%;
+	height: 0.6rem;
+	background: black;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	position: fixed;
+	bottom: 0;
+}
+.wei1{
+	width: 25%;
+	height: 0.6rem;
+	background: #fff;
+	float: left;
+	border-top: 1px solid #ccc;
+}
+.wei2{
+	width: 0.35rem;
+	height: 0.40rem;
+	background: #fff;
+	margin-left: 0.29rem;
+	margin-top: 0.14rem;
+}
+.wei3{
+	width: 0.35rem;
+	height: 0.2rem;
+	background: #fff;
+	text-align: center;
+	line-height: 0.2rem;
+	font-size: 0.1rem;
+}
+.wei .wei2 .wei3 a{
+	color: #23a9ff;
+}
+.wei .wei1 .wei2 .wei3 a{
+	font-size: 0.25rem;
+
+}
+.wei4{
+	width: 0.35rem;
+	height: 0.15rem;
+	background: #fff;
+	margin-top: 0.05rem;
+	font-size: 0.12rem;
+	text-align: center;
+}
+.wei .wei1 .wei2 .wei5 a{
+	color: black;
+}
